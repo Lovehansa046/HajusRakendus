@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Создать XML-файл – рецепты пиццы, проверить правильность кода при помощи веб браузера
+Artjom Plotnikov
+28-03-2023
+-->
+<root>
+	<pizzas>
+		<pizza>
+			<name>
+				Маргарита
+			</name>
+			<description>
+				Традиционная итальянская пицца с томатным соусом, моцареллой и базиликом.
+			</description>
+			<ingredients>
+				<ingredient name="Томатный соус" amount="1 ст.л.">
+				</ingredient>
+				<ingredient name="Моцарелла" amount="200г">
+				</ingredient>
+				<ingredient name="Базилик" amount="30г">
+				</ingredient>
+			</ingredients>
+			<preparation>
+				<step>
+					Разогреть духовку до 220 градусов.
+				</step>
+				<step>
+					Раскатать тесто для пиццы и выложить его на противень.
+				</step>
+				<step>
+					Намазать томатный соус на тесто.
+				</step>
+				<step>
+					Выложить на соус нарезанный базилик и нарезанную моцареллу.
+				</step>
+				<step>
+					Выпекать пиццу в духовке примерно 10-12 минут.
+				</step>
+				<step>
+					Подавать горячей.
+				</step>
+			</preparation>
+		</pizza>
+		<pizza>
+			<name>
+				Пепперони
+			</name>
+			<image>
+			</image>
+			<description>
+				Пицца с томатным соусом, моцареллой и пепперони.
+			</description>
+			<ingredients>
+				<ingredient name="Томатный соус" amount="1 ст.л.">
+				</ingredient>
+				<ingredient name="Моцарелла" amount="200г">
+				</ingredient>
+				<ingredient name="Пепперони" amount="60г">
+				</ingredient>
+			</ingredients>
+			<preparation>
+				<step>
+					Разогреть духовку до 220 градусов.
+				</step>
+				<step>
+					Раскатать тесто для пиццы и выложить его на противень.
+				</step>
+				<step>
+					Намазать томатный соус на тесто.
+				</step>
+				<step>
+					Выложить на соус пепперони и моцареллу.
+				</step>
+				<step>
+					Выпекать пиццу в духовке примерно 10-12 минут.
+				</step>
+				<step>
+					Подавать горячей.
+				</step>
+			</preparation>
+		</pizza>
+		<pizza>
+			<name>
+				Четыре сыра
+			</name>
+			<description>
+				Начинка для этой пиццы готовится из четырех разных сыров, и может порадовать любителей сыра своей нежностью и изысканным вкусом.
+			</description>
+			<ingredients>
+				<ingredient name="Томатный соус" amount="1 ст.л.">
+				</ingredient>
+				<ingredient name="Моцарелла" amount="100г">
+				</ingredient>
+				<ingredient name="Рокфор" amount="100г">
+				</ingredient>
+				<ingredient name="Гауда" amount="100г">
+				</ingredient>
+				<ingredient name="козьего сыра" amount="100г">
+				</ingredient>
+				<ingredient name="орегано" amount="60г">
+				</ingredient>
+			</ingredients>
+			<preparation>
+				<step>
+					Разогреть духовку до 220 градусов.
+				</step>
+				<step>
+					Раскатать тесто для пиццы и выложить его на противень.
+				</step>
+				<step>
+					Намазать томатный соус на тесто.
+				</step>
+				<step>
+					Выложить сыры на тесто и орегано.
+				</step>
+				<step>
+					Выпекать пиццу в духовке примерно 10-12 минут.
+				</step>
+				<step>
+					Подавать горячей.
+				</step>
+			</preparation>
+		</pizza>
+		<pizza>
+			<name>
+				пиццы с креветками и семгой
+			</name>
+			<description>
+				Это одна из моих самых любимых начинок, пицца получается нежная, вкусная и достаточно легкая.
+			</description>
+			<ingredients>
+				<ingredient name="Томатный соус" amount="1 ст.л.">
+				</ingredient>
+				<ingredient name="Моцарелла" amount="100г">
+				</ingredient>
+				<ingredient name="очищенных креветок" amount="60г">
+				</ingredient>
+				<ingredient name="Гауда" amount="100г">
+				</ingredient>
+				<ingredient name="сухой укроп" amount="100г">
+				</ingredient>
+				<ingredient name="орегано" amount="60г">
+				</ingredient>
+				<ingredient name="соленой семги" amount="60г">
+				</ingredient>
+			</ingredients>
+			<preparation>
+				<step>
+					Разогреть духовку до 220 градусов.
+				</step>
+				<step>
+					Раскатать тесто для пиццы и выложить его на противень.
+				</step>
+				<step>
+					Намазать томатный соус на тесто.
+				</step>
+				<step>
+					Выложить на соус очищенных креветок, соленную семгу, орегано и моцареллу с гаудой, с верху посыпать укропом.
+				</step>
+				<step>
+					Выпекать пиццу в духовке примерно 10-12 минут.
+				</step>
+				<step>
+					Подавать горячей.
+				</step>
+			</preparation>
+		</pizza>
+		<pizza>
+			<name>
+				Пицца с салями
+			</name>
+			<description>
+				Тоже довольно простая в приготовлении начинка для пиццы, главный ингредиент которой - это колбаса салями.
+			</description>
+			<ingredients>
+				<ingredient name="Томатный соус" amount="1 ст.л.">
+				</ingredient>
+				<ingredient name="Моцарелла" amount="100г">
+				</ingredient>
+				<ingredient name="очищенных креветок" amount="60г">
+				</ingredient>
+				<ingredient name="салями" amount="100г">
+				</ingredient>
+				<ingredient name="консервированных шампиньонов" amount="100г">
+				</ingredient>
+				<ingredient name="орегано" amount="60г">
+				</ingredient>
+			</ingredients>
+			<preparation>
+				<step>
+					Разогреть духовку до 220 градусов.
+				</step>
+				<step>
+					Раскатать тесто для пиццы и выложить его на противень.
+				</step>
+				<step>
+					Намазать томатный соус на тесто.
+				</step>
+				<step>
+					Выложить на соус салями, консервированные шампиньоны, орегано и моцареллу.
+				</step>
+				<step>
+					Выпекать пиццу в духовке примерно 10-12 минут.
+				</step>
+				<step>
+					Подавать горячей.
+				</step>
+			</preparation>
+		</pizza>
+	</pizzas>
+</root>
