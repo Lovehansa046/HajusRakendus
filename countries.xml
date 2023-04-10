@@ -5,6 +5,11 @@
 Artjom Plotnikov
 28-03-2023
 -->
+<!DOCTYPE страны [
+<!ELEMENT countries (country+)>
+<!ELEMENT country (name, language)>
+<!ELEMENT currency (#PCDATA)>
+]>
 <root>
 	<countries>
 		<country>
